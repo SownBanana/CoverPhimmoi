@@ -1,35 +1,109 @@
-h2 {
-    color: rgb(235, 231, 19);
-}
-
 body{
     margin-left: 280px;
     margin-right: 280px;
     font-family: Arial, sans-serif;
     background-color: #6f6d72;
 }
-div{
-    color: white;
-    font-size: 18px;
+div.head{
+    display: flex;
 }
-div2{
+img.logo{
+
+}
+img.login{
+    margin-left: 406px;
+    margin-top: 8px;
+    height: 40px;
+}
+hr.so1{
+   
+}
+div.notice{
     color: rgba(255, 255, 255, 0.801);
     width: 1000px;
     font-size: 14.5px;
 }
-p{
-    margin-top: 1px;
-    font-size: 13.68px;
-    color: white;
-}
-h4{
-
+h3 {
+    color: rgb(235, 231, 19);
+    height: 9px;
 }
 li{
     color: white;
     font-size: 14px;
 }
-
-img{
-    width: 248px;
+div.litag{
+    margin-top: 18px;
+    display: flex;
+}
+div.hot{
+    display: flex;
+    border-top: 1px solid rgb(170, 159, 159);
+    padding-top: 5px;
+}
+div.hotli{
+    margin-right: 0px;
+    margin-left: 23px;
+}
+img.hot{
+    width: 214px;
+}
+p.viname{
+    font-size: 14px;
+    height: 5px;
+}
+p.enname{
+    font-size: 13.68px;
+    color: white;
+    height: 5px;
+}
+div.hotM{
+    display: inline;
+    border-top: 1px solid rgb(170, 159, 159);
+    padding-top: 5px;
+}
+div.subhotM1{
+    width: 644px;
+    display: flex;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(170, 159, 159);
+    padding-top: 5px;
+}
+div.subhotM{
+    display: flex;
+    margin-bottom: 30px;
+}
+div.hotliM{
+    margin-right: 0px;
+    margin-left: 9px;
+}
+img.hotM{
+    width: 150px;
+}
+p.vinameM{
+    width: 120px;
+    font-size: 12px;
+    height: 5px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+p.ennameM{
+    width: 120px;
+    font-size: 11px;
+    color: white;
+    height: 5px;
+}
+div.master{
+    display: flex;
+}
+div.hotbranch{
+    display: inline;
+}
+div.subbranch{
+    margin-top: 50px;
+    margin-left: 40px;
+    display: inline;
+}
+h4{
+    color: rgb(235, 231, 19);
+    height: 9px;
 }
