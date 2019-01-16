@@ -5,8 +5,20 @@ body{
     background-color: #6f6d72;
 }
 a{
-    color: white;
+    color: #FF8040;
     text-decoration: none;
+}
+a.tag1{
+    font-size: 15px;
+    padding-left: 300px;
+    padding-top: 20px;
+    color: white;
+}
+a.tag{
+    padding-left: 15px;
+    font-size: 15px;
+    padding-top: 20px;
+    color: white;
 }
 div.head{
     display: flex;
@@ -14,8 +26,22 @@ div.head{
 img.logo{
 
 }
+input{
+    width: 320px;
+    height: 37px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #9f9f9f;
+    background-color: #303137;
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 100px;
+    outline: none;
+    padding: 12px 14px;
+    display: inline-block;
+}
 img.login{
-    margin-left: 406px;
+    margin-left: 39px;
     margin-top: 8px;
     height: 40px;
 }
@@ -36,29 +62,52 @@ li{
     font-size: 14px;
 }
 div.litag{
+    margin-left: -300px;
+    margin-right: -280px;
+    background: #3c3c3d;
     margin-top: 18px;
     display: flex;
+    height: 45px;
 }
 div.hot{
+    height: 300px;
+    width: 932px;
     display: flex;
-    border-top: 1px solid rgb(170, 159, 159);
-    padding-top: 5px;
+    border-bottom: 1px solid rgb(170, 159, 159);
+    padding-top: 13px;
+    padding-left: 0px;
+    padding-right: -30px;
+    background-color: #18181a;
 }
 div.hotli{
-    margin-right: 0px;
-    margin-left: 23px;
-}
-img.hot{
+    margin-left: 15px;
     width: 214px;
 }
+img.hot{
+   width: 100%;
+}
+div.name{
+    position: absolute;
+    background: #252527e5;
+    padding: 5px;
+}
 p.viname{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
     font-size: 14px;
-    height: 5px;
+    margin-top: -60px;
+    margin-bottom: 2px;
 }
 p.enname{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
     font-size: 13.68px;
     color: white;
-    height: 5px;
+    margin-top: 4px;
 }
 div.hotM{
     display: inline;
@@ -77,6 +126,8 @@ div.subhotM{
     margin-bottom: 30px;
 }
 div.hotliM{
+    background: #252527e5;
+    padding: 3px;
     margin-right: 0px;
     margin-left: 9px;
 }
@@ -84,17 +135,22 @@ img.hotM{
     width: 150px;
 }
 p.vinameM{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     width: 120px;
     font-size: 12px;
-    height: 5px;
     margin-top: 3px;
-    margin-bottom: 25px;
+    margin-bottom: 1px;
 }
 p.ennameM{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     width: 120px;
     font-size: 11px;
     color: white;
-    height: 5px;
+    margin-top: 2px;
 }
 div.master{
     display: flex;
