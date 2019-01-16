@@ -4,6 +4,10 @@ body{
     font-family: Arial, sans-serif;
     background-color: #6f6d72;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 div.head{
     display: flex;
 }
