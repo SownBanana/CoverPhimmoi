@@ -160,6 +160,119 @@ p.enname{
     color: white;
     margin-top: 4px;
 }
+
+div.danhsach{
+    margin-top: 66px;
+    margin-left: 13px;
+    margin-bottom: -18px;
+
+}
+ul.danhsachnho{
+    display: flex;
+    background-color: #18181a;
+    padding: 10px;
+    list-style: none;
+    width: 355px;
+    margin-bottom:0px;
+    
+}
+ul.danhsachnho a{
+    color: #a7a1a1;
+    font-size: 16px;
+    margin-left: 7px;
+    margin-right: 22px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+ul.danhsachnho a:hover{
+    color: #dfd7d7;
+    font-size: 16px;
+    margin-left: 7px;
+    margin-right: 22px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+ul.danhsachmain{
+    width: 375px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    background-color: #18181a;
+    padding: 0;
+    padding-bottom: 17px;
+}
+li.danhsachphim1{
+    width: 355px;
+    background-color: #18181a;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgba(230, 225, 216, 0.459);
+    border-style: dashed;
+}
+
+li.danhsachphim{
+    width: 355px;
+    background-color: #18181a;
+    display: flex;
+    border: 0px;
+    border-bottom: 1px solid rgba(230, 225, 216, 0.459);
+    border-style: dashed;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+ul.danhsachmain a{
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    color: #dfd7d7;
+    font-size: 13px;
+}
+ul.danhsachmain a img{
+    width: 35px;
+    height: 35px;
+}
+div.ten{
+    margin-left: 9px;
+}
+ul.danhsachmain a p.tento{
+   
+    margin-top: 0;
+}
+ul.danhsachmain a:hover{
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    color: #d8b909;
+    font-size: 13px;
+}
+ul.danhsachmain a img:hover{
+    width: 35px;
+    height: 35px;
+    filter: opacity(65%);
+}
+p.thoigian{
+    color: #dfd7d7b0;
+    font-size: 12px;
+    width: 55px;
+
+}
+
+ul.danhsachmain a p.tennho{
+    color: #9f9f9f;
+    font-size: 12px;
+    margin-top: -7px;
+}
+
+
+
+
+
 div.hotM{
     display: inline;
     border: 0px;
@@ -172,7 +285,9 @@ div.subhotM1{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    border-top: 1px solid rgb(170, 159, 159);
+    border: 0;
+    border-top: 2px solid rgba(120, 124, 124, 0.274);
+    border-style: groove;
     padding-top: 5px;
 }
 div.subhotM{
@@ -187,6 +302,7 @@ div.hotliM{
     padding: 3px;
     margin-right: 0px;
     margin-left: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.404);
 }
 img.hotM{
     width: 150px;
@@ -228,11 +344,95 @@ div.hotbranch{
     display: inline;
 }
 div.subbranch{
+    width: 35%;
     margin-top: 50px;
     margin-left: 40px;
     display: inline;
 }
-h4{
+div.headphai{
+    display: flex;
+}
+.headphai p{
     color: rgb(235, 231, 19);
     height: 9px;
+    font-size: 16px;
+}
+
+.headphai img{
+    margin-top: 10px;
+    margin-right: 7px;
+    
+    width: 30px;
+    height: 30px;
+}
+b.phimdanhdau{
+    display: block;
+    width: 230px;
+    font-size: 15px;
+    color: #c0b9b9;
+    margin-top: 10px;
+    background-color: #18181a;
+    padding: 9px;
+    border-radius: 4px;
+}
+b.phimdanhdau:hover{
+    font-size: 15px;
+    color: #e7dfdf;
+}
+img.fb{
+    display: block;
+    width: 250px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+div.foot{
+    margin-top: 60px;
+    display: flex;
+    border-top: 3px solid rgb(255, 187, 0);
+    background-color: #18181a;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.foot img{
+    height: 40px;
+}
+ul{
+    list-style: none;
+}
+ul.list p{
+    color: rgb(0, 217, 255);
+    margin-bottom: 25px;
+}
+ul.list a{
+    display: block;
+    color: whitesmoke;
+    font-size: 12px;
+    margin-top: 12px;
+}
+ul.list a:hover{
+    display: block;
+    color: #d8b909;
+    font-size: 12px;
+    margin-top: 12px;
+}
+li.dam{
+    display: block;
+    font-size: 12.5px;
+    margin-top: 9px;
+}
+li.nhat{
+    display: block;
+    font-size: 11.5px;
+    margin-top: 9px;
 }
