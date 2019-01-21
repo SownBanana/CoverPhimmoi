@@ -2,6 +2,7 @@ body{
    
     font-family: Arial, sans-serif;
     background-color: #6f6d72;
+    background: url(http://www.phimmoi.net/styles/vtlai/movie/img/body_bg.gif) #6f6d72;
 }
 a{
     color: #FF8040;
@@ -127,6 +128,7 @@ div.hot{
     background-color: #18181a;
 }
 div.hotli{
+    display: inline;
     margin-left: 15px;
     width: 214px;
 }
@@ -136,8 +138,7 @@ img.hot{
 div.name{
     display: block;
     background: #252527e5;
-    padding: 5px;
-}
+   }
 p.viname{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -210,6 +211,9 @@ p.ennameM{
     font-size: 11px;
     color: white;
     margin-top: 2px;
+}
+p.ennameM:hover{
+    color: rgb(243, 239, 3);
 }
 div.master{
     margin-left: 280px;
