@@ -22,7 +22,7 @@ a.tag{
 }
 div.head1{
     width: 100%;
-    background-color: #3c3c41;
+    background-color: #00000059;
     padding-top: 12px;
     padding-bottom: 13px;
 }
@@ -52,11 +52,14 @@ input{
     color: #9f9f9f;
     background-color: #303137;
     box-sizing: border-box;
-    border: 1px;
+    border: 1px solid rgba(116, 115, 114, 0.925);
     border-radius: 100px;
     outline: none;
     padding: 12px 14px;
-    display: inline-block;
+    display: inline-block;;
+    border-top-color: #18181a;
+    border-left-color: #18181a;
+    
 }
 img.login{
     margin-left: 39px;
@@ -398,7 +401,7 @@ div.foot{
     margin-top: 60px;
     display: flex;
     border-top: 3px solid rgb(255, 187, 0);
-    background-color: #18181a;
+    background-image: url(http://www.phimmoi.net/styles/vtlai/movie/img/micro_carbon.png);
     padding-left: 280px;
     padding-right: 280px;
     padding-top: 20px;
