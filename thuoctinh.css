@@ -1,6 +1,5 @@
 body{
-    margin-left: 280px;
-    margin-right: 280px;
+   
     font-family: Arial, sans-serif;
     background-color: #6f6d72;
 }
@@ -20,11 +19,29 @@ a.tag{
     padding-top: 20px;
     color: white;
 }
+div.head1{
+    width: 100%;
+    background-color: #3c3c41;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
 div.head{
+    display: inline;
+    margin-left: 280px;
+    margin-right: 280px;
     display: flex;
+    
 }
 img.logo{
-
+  
+}
+form{
+    display: flex;
+}
+div.fa.fa-search{
+    color:rgb(7, 57, 167);
+    margin-top: 19.5px;
+    margin-left: -28px;
 }
 input{
     width: 320px;
@@ -49,34 +66,64 @@ hr.so1{
    
 }
 div.notice{
+    margin-left: 280px;
+    margin-right: 280px;
     color: rgba(255, 255, 255, 0.801);
-    width: 1000px;
     font-size: 14.5px;
+    border: 1px solid rgb(245, 209, 3);
+    background-color: black;
+    height: 50px;
+    padding: 11px;
+    padding-bottom: 0px;
+    
 }
-h3 {
+h3.mot {
+    margin-left: 280px;
+    margin-right: 280px;
     color: rgb(235, 231, 19);
     height: 9px;
 }
 li{
     color: white;
     font-size: 14px;
+
 }
-div.litag{
-    margin-left: -300px;
-    margin-right: -280px;
-    background: #3c3c3d;
-    margin-top: 18px;
+div.menu{
+    background: #2f2f30;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    border-top: 3px solid rgb(245, 209, 3);  
+}
+ul.menungang{
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    height: 45px;
+    list-style: none;  
+}
+ul.menungang a{
+    display: inline;
+    padding: 16px 7px 15px 7px;
+    transition: 0.2s;
+}
+ul.menungang a:hover{
+    color: rgb(243, 239, 3);
+    background-color: #1c1c1d94;
+}
+ul.theloai{
+    list-style: none;
 }
 div.hot{
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: -50px;
     height: 300px;
     width: 932px;
     display: flex;
     border-bottom: 1px solid rgb(170, 159, 159);
-    padding-top: 13px;
-    padding-left: 0px;
-    padding-right: -30px;
+    padding-top: 13px;  
     background-color: #18181a;
 }
 div.hotli{
@@ -87,7 +134,7 @@ img.hot{
    width: 100%;
 }
 div.name{
-    position: absolute;
+    display: block;
     background: #252527e5;
     padding: 5px;
 }
@@ -100,6 +147,9 @@ p.viname{
     margin-top: -60px;
     margin-bottom: 2px;
 }
+div.hot a:hover{
+    color: rgb(243, 239, 3);
+}
 p.enname{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -111,25 +161,31 @@ p.enname{
 }
 div.hotM{
     display: inline;
+    border: 0px;
     border-top: 1px solid rgb(170, 159, 159);
     padding-top: 5px;
+    border-style: groove;
 }
 div.subhotM1{
     width: 644px;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
     border-top: 1px solid rgb(170, 159, 159);
     padding-top: 5px;
 }
 div.subhotM{
+    width: 644px;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
     margin-bottom: 30px;
 }
 div.hotliM{
     background: #252527e5;
     padding: 3px;
     margin-right: 0px;
-    margin-left: 9px;
+    margin-left: 0px;
 }
 img.hotM{
     width: 150px;
@@ -143,6 +199,9 @@ p.vinameM{
     margin-top: 3px;
     margin-bottom: 1px;
 }
+div.hotM a:hover{
+    color: rgb(243, 239, 3);
+}
 p.ennameM{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -153,7 +212,13 @@ p.ennameM{
     margin-top: 2px;
 }
 div.master{
+    margin-left: 280px;
+    margin-right: 280px;
     display: flex;
+}
+h3{
+    color: rgb(235, 231, 19);
+    height: 9px;
 }
 div.hotbranch{
     display: inline;
