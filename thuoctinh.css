@@ -239,6 +239,7 @@ ul.danhsachmain a{
 ul.danhsachmain a img{
     width: 35px;
     height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.856);
 }
 div.ten{
     margin-left: 9px;
@@ -254,7 +255,7 @@ ul.danhsachmain a:hover{
     color: #d8b909;
     font-size: 13px;
 }
-ul.danhsachmain a img:hover{
+ul.danhsachmain a:hover img{
     width: 35px;
     height: 35px;
     filter: opacity(65%);
@@ -310,6 +311,10 @@ div.hotliM{
 img.hotM{
     width: 150px;
 }
+img.hotM:hover{
+    width: 150px;
+    filter: opacity(65%);
+}
 p.vinameM{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -352,6 +357,9 @@ div.subbranch{
     margin-left: 40px;
     display: inline;
 }
+p.phai{
+    font-weight: bold;
+}
 div.headphai{
     display: flex;
 }
@@ -387,6 +395,64 @@ img.fb{
     width: 250px;
     margin-top: 10px;
 
+}
+
+ul.trailer{
+    background-color: #18181a;
+    padding: 10px;
+    border-radius: 4px;
+}
+li.phimphai{
+    width: 100%;
+    margin-top: 7px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+    padding-bottom: 7px;
+}
+li.phimphai a{
+    display: flex;
+    width: 100%;
+    transition: 0.2s;
+}
+img.poster{
+    width: 100px;
+    height: 133px;
+    border: 2px solid rgba(248, 246, 242, 0.788);
+}
+div.chuphai{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: -11px;
+}
+p.tenvi{
+    display: block;
+    color:  rgb(0, 217, 255);
+    font-weight: bold;
+    font-size: 13px;
+}
+p.tenen{
+    display: block;
+    color: white;
+    font-size: 12px;
+    margin-top: -10px;
+}
+p.luotxem{
+    display: block;
+    font-size: 11px;
+    color:  rgb(0, 217, 255);
+    margin-bottom: 2px;
+
+}
+li.phimphai a:hover img.poster{
+    width: 100px;
+    height: 133px;
+    border: 2px solid rgba(248, 246, 242, 0.788);
+    filter: opacity(65%);
+}
+li.phimphai a:hover p.tenvi{
+    display: block;
+    color: #d8b909;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 
