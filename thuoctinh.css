@@ -301,6 +301,12 @@ div.subhotM{
     margin-bottom: 10px;
     margin-bottom: 30px;
 }
+p.time{
+    font-size: 12px;
+    color: #6f6d72;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
 div.hotliM{
     background: #252527e5;
     padding: 3px;
@@ -455,12 +461,66 @@ li.phimphai a:hover p.tenvi{
     font-size: 13px;
 }
 
+ul.keyword{
+    list-style: none;
+    background-color: #18181a;
+    padding: 8px;
+    border-radius: 4px;
+    width: 280px;
+    display: flex;
+}
+ul.keyword li{
+   display: inline-flex;
+}
+span.tag{
+    margin-top: 5px;
+    margin-right: -2px;
+}
+span.img{
+ 
+    margin-top: -10px;
+ 
+}
 
+ul.keyword li a{
+    display: inline;
+    background-image: url(http://www.phimmoi.net/styles/vtlai/movie/img/tag-middle.png);
+    color: rgb(248, 244, 236);
+    font-size: 11px;
+    padding: 7px; 
+    margin: 0px;
+}
+ul.keyword li a:hover{
+    display: inline;
+    background-image: url(http://www.phimmoi.net/styles/vtlai/movie/img/tag-middle.png);
+    color: rgb(243, 178, 57);
+    font-size: 11px;
+    padding: 10px;
+}
 
-
-
-
-
+div.dienvien{
+    background-color: #18181a;
+    padding: 5px;
+    border-radius: 3px;
+    padding-bottom: 0.1px;
+}
+a.dienvien img{
+    width: 290px;
+    height: 180px;
+}
+a.dienvien p{
+    color: rgb(0, 217, 255);
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+a.dienvien:hover img{
+    filter: opacity(65%);
+}
+a.dienvien:hover p{
+    color: #d8b909;
+}
 
 
 div.foot{
